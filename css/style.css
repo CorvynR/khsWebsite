@@ -53,7 +53,7 @@ ol, ul, dl {
     position: relative;
 }
 .dropdown-menu {
-    background-color: #d3d3d3;
+    background: #d3d3d3;
     position: absolute;
     float: right!important;
     text-align: right;
@@ -64,9 +64,15 @@ ol, ul, dl {
     display: inline-flex;
 }
 .dropdown-item.active {
-    background-color: #dc143c;
+    background: #dc143c;
 }
 
+/*Header*/
+.header {
+    background: #970805;
+    color: #000;
+    text-align: center;
+}
 
 /*Carousel*/ 
 .carousel-item img {
